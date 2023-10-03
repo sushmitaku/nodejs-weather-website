@@ -26,8 +26,8 @@ weather_form.addEventListener('submit', (e) => {
     const location = weather_form.elements.location.value; // Access the input value by name
     messageOne.textContent="Loading..."
     messageTwo.textContent=""
-   
-    fetch('http://localhost:3000/weather?address=' + location)
+   //'http://localhost:3000/weather?address=' + location
+    fetch('/weather?address=' + location)
     
         .then((response) => {
             response.json().then((data) => {
