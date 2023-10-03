@@ -63,7 +63,7 @@ app.get('/weather', (req, res) => {
         if (error) {
             return res.send({error});
         } else {
-           // const { country, latitude, longitude ={}} = data;
+          
             console.log('Country:', country);
             console.log('Latitude:', latitude);
             console.log('Longitude:', longitude);
