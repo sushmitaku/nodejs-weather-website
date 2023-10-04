@@ -102,7 +102,7 @@ app.get('*',(req,res)=>{
     footer:"This is footer of the page"
   })
 })
-
+//
 // app.get('',(req,res)=>{
 //   //  res.send('Hello express')
 //   res.send('<h1>Hello express</h1>')
