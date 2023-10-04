@@ -96,7 +96,7 @@ app.get('/help/*',(req,res)=>{
 
 app.get('*',(req,res)=>{
   //  res.send('Hello express')
-  res.render('pageNotFound',{
+  res.render('pageNotfound',{
     error:"Error 404 page not found ",
     title:"404",
     footer:"This is footer of the page"
